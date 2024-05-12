@@ -1,5 +1,11 @@
+import NotesSelectors from "./NotesSelectors";
+
 const SidePanel = () => {
-  return <div>SidePanel</div>;
+  return (
+    <aside>
+      <NotesSelectors />
+    </aside>
+  );
 };
 
 export default SidePanel;

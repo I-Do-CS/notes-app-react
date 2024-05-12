@@ -1,5 +1,12 @@
+import ControlsWidget from "./ControlsWidget";
+
 const NotesDisplayer = () => {
-  return <div>NotesDisplayer</div>;
+  return (
+    <section>
+      <div></div>
+      <ControlsWidget />
+    </section>
+  );
 };
 
 export default NotesDisplayer;

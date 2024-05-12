@@ -1,5 +1,9 @@
 const ControlsWidget = () => {
-  return <div>ControlsWidget</div>;
+  return (
+    <aside role="menubar">
+      <div></div>
+    </aside>
+  );
 };
 
 export default ControlsWidget;
