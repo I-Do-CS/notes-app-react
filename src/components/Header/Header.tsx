@@ -1,11 +1,9 @@
-import NotesAppLogo from "./NotesAppLogo";
 import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <header>
-      <div>
-        <NotesAppLogo />
+    <header className="border-b-2 border-black">
+      <div className="container mx-auto flex p-6">
         <SearchBar />
       </div>
     </header>

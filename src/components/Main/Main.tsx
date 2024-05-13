@@ -4,7 +4,7 @@ import { NotesDisplayer } from "./NotesDisplayer";
 const Main = () => {
   return (
     <main>
-      <div>
+      <div className="container mx-auto flex flex-row">
         <SidePanel />
         <NotesDisplayer />
       </div>
